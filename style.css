@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    background-size:cover;
+   background-repeat: no-repeat;
+    background-image: url(https://banglashasyabima.net/assets/Crop_Field.jpg);
+    z-index: -99;
+}
+
+.nav_upper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 5%;
+ 
+    
+}
+
+.nav_upper a{
+    text-decoration: none;
+    color:white;
+}
+
+nav{
+    width:100vw;
+    height:82px;
+    background-color:#075307;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding-left: 30px;
+    padding-right: -60px; */
+    margin-top: 20px;
+}
+
+.search_icon{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 17px;
+    background-color: #24a828;
+    border-color: #1f9123;
+    border-radius: 5px;
+    width:218px;
+    height:30px;
+   
+}
+.icon{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    
+    transform: translate(-3%,-3%);
+}
+
+.marque{
+    margin-top: 30px;
+}
+
+.marque marquee h3{
+    color:#ffffff;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.application_form{
+display:flex;
+align-items: center;
+justify-content: center;
+color: #ffffff;
+font-weight: 600;
+font-size: 17px;
+background-color: #24a828;
+border-color: #1f9123;
+border-radius: 2px;
+width:260px;
+height:30px;
+
+}
+
+.faq{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 17px;
+    background-color: #24a828;
+    border-color: #1f9123;
+    border-radius: 2px;
+    width:70px;
+    height:30px;
+   
+    }
+
+    .login{
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            color: #ffffff;
+            font-weight: 600;
+            font-size: 17px;
+            background-color: #24a828;
+            border-color: #1f9123;
+            border-radius: 2px;
+            width:100px;
+            height:30px;
+            
+    }
+
+    .departement{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        color: #ffffff;
+        font-weight: 600;
+        font-size: 17px;
+        background-color: #24a828;
+        border-color: #1f9123;
+        border-radius: 2px;
+        width:218px;
+        height:30px;
+            
+        
+}
+
+.insurance{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 17px;
+    background-color: #24a828;
+    border-color: #1f9123;
+    border-radius: 2px;
+    width:190px;
+    height:30px;
+    
+}
+
+
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 120px;
+    /* margin-left: 15px;
+    margin-left: -15px; */
+}
+
+.hero .farmer_corner a img {
+    transition: transform 0.2s;
+}
+
+.hero .farmer_corner a img :hover{
+    transform: scale(1.5);
+}
+
+
+
+
+#next_page{
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+.others_link h1{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.main-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    /* background-color: red; */
+    /* padding: 20px; */
+    /* padding-right: -40px; */
+    gap:50px;
+    height: 180px;
+    position: relative;
+}
+
+.box{
+    height:160px;
+    /* background-color: #ffffff; */
+    width:190px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;  */
+    /* position: absolute;
+    margin:303px ;
+   
+    /* border-radius: 3; */
+    box-shadow: 3px 3px #777777;
+    z-index: 99;
+    background-color: #ffffff;
+    border:1px solid #33CC66; 
+    cursor: pointer;
+  
+}
+
+.box5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+
+}
+
+
+h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-3{
+    margin-top: 50px;;
+    width:100vw;
+    height:60vh;
+    background-color: #f9f4f4;
+}
+
+.main-3 .main-3-text h2{
+    font-size: 23px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.main-3-content{
+    width: 700px;
+    height:232px;
+    background-color: #ffffff;
+    border:1px solid #33CC66;
+} 
+
+.main-3-content a{
+    text-decoration: none;
+    display: flex;
+    margin-top: 10px;
+    padding: 8px;
+    color:#24a828
+} 
+
+.main-3-content a :hover{
+    text-decoration: underline;
+}
+
+.content-1{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 50px;
+   
+}
+
+
+footer{
+    height:59px;
+    color: #f9f4f4;
+}
+footer marquee h3{
+ padding-top:20px ;
+color: black;
+font-size: 25px;
+font-weight: 600;
+}
