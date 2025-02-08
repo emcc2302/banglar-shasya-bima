@@ -41,8 +41,7 @@ CSS - For styling and enhancing the UI.
 
 Clone the repository:
 
-git clone https://github.com/your-username/banglar-shasya-bima-portal.git
-
+git clone https://emcc2302.github.io/banglar-shasya-bima/
 Open the index.html file in a browser.
 
 Navigate through the portal to explore its features.
